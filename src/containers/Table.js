@@ -7,6 +7,7 @@ const Table = ({result, filterMechanismForNumbers, filterMechanismForStrings})=>
     return(
         <div>
             <table id="populatedTable">
+                <thead>
                 <tr className="table-head">
                     <th>
                     <Dropdown>
@@ -32,7 +33,10 @@ const Table = ({result, filterMechanismForNumbers, filterMechanismForStrings})=>
                     <th>Games Loss</th>
                     <th>Points</th>
                 </tr>
+            </thead>
+            
                 <TableRow result={result}/>
+            
             </table>
         </div>
 

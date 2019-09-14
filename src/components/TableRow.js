@@ -2,12 +2,10 @@ import React from 'react';
 
 const TableRow = ({result})=>{
     return(
-       <div>
-           {result()}
-       </div>
+        <tbody>
+            {result()}
+        </tbody>
     );
-
-
 }
 
 export default TableRow;
