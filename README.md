@@ -1,3 +1,7 @@
+# Populate Table With Json
+The Table can be populated with any kind of data and can be used as a template.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
